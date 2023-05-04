@@ -1,12 +1,12 @@
 #include "lists.h"
 size_t print_listint(const listint_t *h)
 {
-size_t x = 0;
-while (y)
+size_t num = 0;
+while (h)
 {
-printf("%d\n", y->n);
+printf("%d\n", h->n);
 num++;
-y = y->next;
+h = h->next;
 }
-return (x);
+return (num);
 }
